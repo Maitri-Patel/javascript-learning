@@ -5,7 +5,7 @@
 // 2. assignment - x = 10;
 // 3. both let x = 10;
 
-let age = 20;
+/* let age = 20;
 let price = 15.22;
 let gpa = 3.76;
 
@@ -19,26 +19,19 @@ console.log (typeof age);
 // boolean 
 let online = true;
 console.log(typeof online);
-console.log(`are you available ${online}`);
-
-let name = "Maitri";
-document.getElementById("myH1").textContent = `Welcome to JavaScript Learning ${name}`
+console.log(`are you available ${online}`); */
 
 
+/* Arithematic Operation
+Operator Precendance:
+1.parenthsis()
+2.exponenets **
+3.multiplication & divison & module
+4.addition & subtraction
 
+*/
 
-/* let fullname = "Maitri Patel"
-let age = "20";
-let student = "true";
-
-document.getElementById("p1").textContent = `Your name is ${fullname}`;
-document.getElementById("p2").textContent = `Your age is ${age}`;
-document.getElementById("p3").textContent = `You are a ${student}`;
-
-console.log(typeof fullname);
-
-let result = 6/2 ** (2+5);
-console.log(result) */
-
-/* let username
-document.getElementById("myH1").textContent = `Hello, ${username} `; */
+let student = 10;
+student += 5 ; 
+student ++ ;// this means +1
+console.log(student)
