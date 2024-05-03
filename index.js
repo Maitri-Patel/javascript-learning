@@ -31,7 +31,24 @@ Operator Precendance:
 
 */
 
-let student = 10;
+/* let student = 10;
 student += 5 ; 
 student ++ ;// this means +1
-console.log(student)
+console.log(student) */
+
+/* How to Accept user input 
+1. easy way : window prompt 
+2. HtML Text box  
+*/
+
+/* let username;
+username = window.prompt("what is your username");
+
+console.log(username); */
+
+let username;
+
+document.getElementById("mySubmit").onclick = function(){
+    username = document.getElementById("myText").value;
+    document.getElementById("myH1").textContent = `Welcome ${username} to JavaScript Learning`
+}
