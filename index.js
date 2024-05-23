@@ -57,9 +57,22 @@ document.getElementById("mySubmit").onclick = function(){
 /* Type conversion - change the datatype value to another (
                      strings, number, booleans)
 user input most of time is string to use input for other function we use type conversion 
-*/
+
 let age = window.prompt("how old are you ? ");
 age = Number(age);
 age+=1;
 console.log(age, typeof age );
+*/
 
+// const = a variable that can't be changed
+const PI = 3.14159;
+let radius;
+let circumference; 
+
+radius = Number(radius);
+
+document.getElementById("circle").onclick = function() {
+    radius = document.getElementById("radius").value ;
+    circumference = 2 * PI * radius;
+    document.getElementById("myH3").textContent = `Answer: Circumference of circle is ${circumference} cm`;
+}
