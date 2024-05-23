@@ -52,3 +52,14 @@ document.getElementById("mySubmit").onclick = function(){
     username = document.getElementById("myText").value;
     document.getElementById("myH1").textContent = `Welcome ${username} to JavaScript Learning`
 }
+
+
+/* Type conversion - change the datatype value to another (
+                     strings, number, booleans)
+user input most of time is string to use input for other function we use type conversion 
+*/
+let age = window.prompt("how old are you ? ");
+age = Number(age);
+age+=1;
+console.log(age, typeof age );
+
